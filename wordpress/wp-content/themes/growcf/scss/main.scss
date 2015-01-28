@@ -1,3 +1,12 @@
-body {
-	background-color: green;
+@import "reset";
+@import "bits";
+@import "header";
+
+html {
+	font-size: 16px;
+	height: 100rem;
+}
+
+img {
+	max-width: 100%;
 }

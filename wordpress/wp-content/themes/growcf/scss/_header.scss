@@ -1,0 +1,30 @@
+.jumbotron {
+	background: url('../images/downtown.jpg');
+	background-size: cover;
+}
+
+.jumbotron nav {
+	background-color: rgba(white, 0.7);
+	text-align: center;
+}
+
+.site-title {
+	@include rem(font-size, 3);
+	color: blue;
+}
+
+.jumbotron > .container {
+	width: 40%;
+	background-color: rgba(black, 0.6);
+}
+
+.jumbotron h2 {
+	@include rem(font-size, 2.5);
+	color: yellow;
+}
+
+.jumbotron p {
+	@include rem(font-size, 1.2);
+	@include rem(line-height, 2);
+	color: white;
+}
