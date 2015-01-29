@@ -1,10 +1,15 @@
 @import "reset";
 @import "bits";
 @import "header";
+@import "testimonial";
 
 html {
 	font-size: 16px;
 	height: 100rem;
+}
+
+body {
+	background-color: $navy;
 }
 
 img {
