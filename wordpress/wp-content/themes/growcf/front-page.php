@@ -26,12 +26,11 @@
 				<p>Joe and Julie Disch are proud owners of Hi-Quality Bakery in Cannon Falls. As owners since 1992, they have provided the very best in bakery products. In 2006, the bakery celebrated it's 60th year in business and look forward to many more years to come.</p>
 			</div>
 		</div>
-		</div>
 	</div>
 </div>
 <div class="callout-section">
 	<h2>Get Started with a Free Information Packet</h2>
-	<a href="#">Sign Up</a>
+	<a class="signup-button" href="#">Sign Up</a>
 </div>
 <div class="resources-section clearfix">
 	<div class="resources-wrapper">
