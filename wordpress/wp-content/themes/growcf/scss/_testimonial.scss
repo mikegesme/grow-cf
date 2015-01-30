@@ -1,15 +1,40 @@
 .testimonial {
-	max-width: 50%;
-	float: left;
 	color: white;
+//	@include rem(letter-spacing, 0.02);
+	line-height: 1.5;
+	@media screen and(min-width: $medium) {
+		max-width: 50%;
+		float: left;
+		color: white;
+	}
+}
+
+.testimonial-section {
+	margin: 0 auto;
+	max-width: 1800px;
+}
+
+.testimonial-section:after {
+	content: " ";
+	visibility: hidden;
+	clear: both;
+	display: block;
+	height: 0;
+
 }
 
 .testimonial figure {
 	display: inline-block;
+	@include rem(padding, 0 1 1 1);
+	@media screen and (min-width: $wide) {
+	}
 }
 
 .testimonial figcaption {
 	text-align: center;
+	@media screen and (min-width: $wide) {
+		@include rem(padding-top, 0.5);
+	}
 }
 
 .testimonial img {
@@ -17,11 +42,22 @@
 }
 
 .media-left {
-	width: 30%;
-	float: left;
+	@media screen and (min-width: $wide) {
+		width: 40%;
+		float: left;
+	}
+//	width: 30%;
 }
 
 .media-body {
-	width: 70%;
-	float: left;
+	@include rem(padding, 0 1 1 1);
+	font-weight: $light;
+	@media screen and (min-width: $wide) {
+		@include rem(padding, 0 1 1 0);
+		@include rem(font-size, 1.2);
+		float: left;
+		width: 60%;
+	}
+//	width: 70%;
+//	float: left;
 }
