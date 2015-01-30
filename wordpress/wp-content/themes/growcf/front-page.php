@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="testimonial-section">
+<div class="testimonial-section clearfix">
 	<h2 class="section-heading">Success Stories</h2>
 	<div class="testimonial testimonial-left">
 		<div class="media">
@@ -31,7 +31,7 @@
 </div>
 <div class="callout-section">
 	<h2>Get Started with a Free Information Packet</h2>
+	<a href="#">Sign Up</a>
 </div>
-	<h1>Front Page</h1>
 
 <?php get_footer(); ?>

@@ -5,7 +5,7 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-<div class="jumbotron">
+<div class="jumbotron clearfix">
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<h1 class="site-title">Grow Cannon Falls</h1>
