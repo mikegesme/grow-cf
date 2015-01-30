@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="jumbotron">
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default">
 		<div class="container">
 			<h1 class="site-title">Grow Cannon Falls</h1>
 		</div>

@@ -1,6 +1,9 @@
+// Colors
 $navy: #253d51;
 
-
+// Breakpoints
+$medium: 700px;
+$wide: 980px;
 
 // Rem mix-in for IE8
 @mixin rem($property, $values) {
