@@ -8,6 +8,8 @@ function gcf_add_styles() {
 	wp_enqueue_style( 'main-css' );
 	wp_register_style('dancing-script-font', 'http://fonts.googleapis.com/css?family=Dancing+Script:700' );
 	wp_enqueue_style( 'dancing-script-font' );
+	wp_register_style('open-sans-font', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' );
+	wp_enqueue_style( 'open-sans-font' );
 }
 
 add_action( 'wp_enqueue_scripts', 'gcf_add_styles' );

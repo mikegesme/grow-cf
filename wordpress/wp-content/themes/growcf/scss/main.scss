@@ -7,10 +7,16 @@
 html {
 	font-size: 16px;
 	height: 100rem;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
 	background-color: $navy;
+	font-family: 'Open Sans', sans-serif;
 }
 
 img {
