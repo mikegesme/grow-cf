@@ -1,0 +1,51 @@
+.resources-section {
+	background-color: $silver;
+	color: $navy;
+}
+
+.resources-wrapper {
+	max-width: $max-width;
+	margin: 0 auto;
+}
+
+.resources-section .section-heading {
+	color: $navy;
+}
+
+.resource {
+	@include rem(padding, 1);
+	@media screen and (min-width: $medium-wide) {
+		width: 50%;
+		float: left;
+		@include rem(font-size, 1.2);
+	}
+}
+
+.resource-container {
+	@media screen and (min-width: $medium-wide) {
+		margin: 0 auto;
+		max-width: 600px;
+		@include rem(padding, 1);
+	}
+	@media screen and (min-width: $wide) {
+		@include rem(padding, 1.5);		
+	}
+	@media screen and (min-width: $extrawide) {
+		@include rem(padding, 2);		
+	}
+}
+
+.resource h3 {
+	font-weight: $bold;
+	@include rem(padding, 0 0 1 0);
+}
+
+.resource p {
+	@include rem(padding, 0 0 1 0);
+	line-height: 1.5;
+}
+
+.resource a {
+	color: $blue;
+	text-decoration: none;
+}

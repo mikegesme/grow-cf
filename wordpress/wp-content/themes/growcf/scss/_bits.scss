@@ -2,6 +2,8 @@
 $navy: #253d51;
 $yellow: #fef4a6;
 $blue: #68ace4;
+$silver: #dfe2e5;
+$gray: gray;
 
 // Font Weights
 $light: 300;
@@ -14,6 +16,9 @@ $medium: 500px;
 $medium-wide: 750px;
 $wide: 920px;
 $extrawide: 1500px;
+
+// Other
+$max-width: 1800px;
 
 // Rem mix-in for IE8
 @mixin rem($property, $values) {

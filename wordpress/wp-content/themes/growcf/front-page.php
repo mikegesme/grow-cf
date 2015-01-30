@@ -33,5 +33,58 @@
 	<h2>Get Started with a Free Information Packet</h2>
 	<a href="#">Sign Up</a>
 </div>
+<div class="resources-section clearfix">
+	<div class="resources-wrapper">
+		<h2 class="section-heading">Resources for your Business</h2>
+		<div class="resource">
+			<div class="resource-container">		
+				<h3 class="resource-heading">City of Cannon Falls</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="http://cannonfallsmn.gov/business.php">Business Resources on City Website</a>
+			</div>				
+		</div>
+		<div class="resource">
+			<div class="resource-container">
+				<h3 class="resource-heading">Cannon Falls Chamber of Commerce</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="http://cannonfallsmn.gov/business.php">Chamber Website</a>					
+			</div>
+		</div>
+		<div class="resource">
+			<div class="resource-container">			
+				<h3 class="resource-heading">Cannon Falls Economic Development Authority</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="http://cannonfallsmn.gov/business.php">Business Resources on City Website</a>
+			</div>
+		</div>
+		<div class="resource">
+			<div class="resource-container">
+				<h3 class="resource-heading">Grow Cannon Falls Group</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="http://cannonfallsmn.gov/business.php">Register Here</a>
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>
