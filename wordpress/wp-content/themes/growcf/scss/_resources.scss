@@ -36,6 +36,7 @@
 }
 
 .resource h3 {
+	line-height: 1.5;
 	font-weight: $bold;
 	@include rem(padding, 0 0 1 0);
 }
