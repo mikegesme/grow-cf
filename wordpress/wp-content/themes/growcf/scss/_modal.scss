@@ -3,12 +3,14 @@
 }
 
 .signup-form-wrap {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	margin: 0 auto;
 	max-width: 600px;
 	@include rem(padding, 0 1);
 }
 
 #signup-modal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	background: $navy;
 	position: fixed;
 	transform: scale(1.5);
@@ -46,21 +48,25 @@
 }
 
 .dialogIsOpen #signup-modal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	transform: scale(1);
 	opacity: 1;
 	pointer-events: auto;
 }
 
 #signup-modal h2 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	color: $yellow;
 }
 
 #signup-modal .text-wrap {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	width: 49%;
 	margin: 0;
 }
 
 #signup-modal .text-wrap:nth-child(2) {
+
 	float: left;
 }
 #signup-modal .text-wrap:nth-child(3) {
@@ -68,6 +74,7 @@
 }
 
 #signup-modal .text-wrap input, #signup-modal .spam-wrap input {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	color: $gray;
 	@include rem(margin-top, 1);
 	@include rem(font-size, 1);
@@ -80,6 +87,8 @@
 }
 
 #signup-modal p {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 	clear: both;
 	@include rem(padding, 1 0);	
 	@include rem(font-size, 1);
@@ -89,6 +98,7 @@
 }
 
 #signup-modal label {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	font-weight: $light;
 	line-height: 1.5;
 	@media screen and (min-width: $medium) {
@@ -97,28 +107,45 @@
 }
 
 #signup-modal .spam-wrap label {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 //	@include rem(font-size, 1);
 }
 
 #signup-modal .checkbox-wrap input[type="checkbox"] {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 	@include rem(height, 1);
 	@include rem(width, 1);
 }
 
+#signup-modal .checkbox-wrap label {
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+}
+
 #signup-modal input {
 	border: none;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 
 }
 
 .ninja-forms-required-items {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 	display: none;
 }
 
 #signup-modal .submit-wrap {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 	text-align: center;
 }
 
 #signup-modal .submit-wrap input {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 	background-color: $blue;
 	color: white;
 	@include rem(font-size, 1);
@@ -133,6 +160,8 @@
 }
 
 .ninja-forms-field-error, .ninja-forms-response-msg {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 	color: $yellow;
 	@include rem(font-size, 1);
 }

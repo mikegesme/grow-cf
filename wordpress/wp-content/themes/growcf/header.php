@@ -4,6 +4,10 @@
 	<meta charset="utf-8">
 	<title>Grow Cannon Falls</title>
 	<?php wp_head(); ?>
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/html5shiv.js"></script>
+		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/respond.js"></script>
+	<![endif]--> 
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
