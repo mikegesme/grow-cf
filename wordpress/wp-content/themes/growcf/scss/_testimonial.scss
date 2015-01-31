@@ -1,6 +1,5 @@
 .testimonial {
 	color: white;
-//	@include rem(letter-spacing, 0.02);
 	line-height: 1.5;
 	@media screen and(min-width: $medium) {
 		max-width: 50%;
@@ -30,6 +29,7 @@
 
 .testimonial img {
 //	float: left;
+	width: 100%;
 }
 
 .media-left {

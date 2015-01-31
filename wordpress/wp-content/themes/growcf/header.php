@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Grow Cannon Falls</title>
 	<?php wp_head(); ?>
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<div id="page-wrap">
