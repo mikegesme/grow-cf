@@ -13,6 +13,8 @@ function gcf_add_styles() {
 	wp_enqueue_script('jquery');
 	wp_register_script( 'main-js', get_template_directory_uri() . '/js/main.js' , array( 'jquery' ), false, true);
 	wp_enqueue_script( 'main-js' );
+	wp_register_script( 'analytics-js', get_template_directory_uri() . '/js/google-tracking.js' , false, false, true);
+	wp_enqueue_script( 'analytics-js' );
 }
 
 add_action( 'wp_enqueue_scripts', 'gcf_add_styles' );
