@@ -1,5 +1,8 @@
 <?php get_header(); ?>
-
+<div class="promo callout-section">
+		<h2>Join us on April 16th to learn more!</h2>
+		<a class="signup-button" href="<?php echo wp_get_attachment_url(4); ?>">Details</a>
+</div>
 <div class="testimonial-section clearfix">
 	<h2 class="section-heading">Success Stories</h2>
 	<div class="testimonial testimonial-left">

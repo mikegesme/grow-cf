@@ -49,3 +49,8 @@
 		@include rem(margin, 0 0 0 2);
 	}
 }
+
+.promo {
+	background-color: $yellow;
+	color: $navy;
+}
