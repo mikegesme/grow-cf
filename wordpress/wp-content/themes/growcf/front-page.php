@@ -55,7 +55,7 @@
 		<div class="resource">
 			<div class="resource-container">			
 				<h3 class="resource-heading">Cannon Falls Economic Development Authority</h3>
-				<p>The Cannon Falls Economic Development Authority is a group of city officials and business people. The EDA will work with your business to make sure you have the resources you need to be successful. Funding opportunities and are available. For details, please call City Hall at 507-263-9300 or get started by visiting the Business area of the City's website.</p>
+				<p>The Cannon Falls Economic Development Authority is a group of city officials and business people. The EDA will work with your business to make sure you have the resources you need to be successful. Funding opportunities are available. For details, please call City Hall at 507-263-9300 or get started by visiting the Business area of the City's website.</p>
 				<a href="http://cannonfallsmn.gov/business.php">Business Resources on City Website</a>
 			</div>
 		</div>
