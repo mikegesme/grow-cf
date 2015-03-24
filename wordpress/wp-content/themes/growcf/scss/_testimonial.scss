@@ -1,8 +1,13 @@
+.owl-controls {
+	@include rem(margin, 1);
+}
+
 .testimonial {
 	color: white;
 	line-height: 1.5;
+	width: 100%;
 	@media screen and(min-width: $medium) {
-		max-width: 50%;
+		width: 100%;
 		float: left;
 		color: white;
 	}

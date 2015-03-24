@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/html5shiv.js"></script>
 		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/respond.js"></script>
 	<![endif]--> 
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div id="page-wrap">

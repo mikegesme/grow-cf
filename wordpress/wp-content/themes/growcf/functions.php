@@ -11,6 +11,10 @@ function gcf_add_styles() {
 	wp_register_style('open-sans-font', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' );
 	wp_enqueue_style( 'open-sans-font' );
 	wp_enqueue_script('jquery');
+//	wp_register_script( 'owl-carousel-min', get_template_directory_uri() . '/js/owl.carousel.min.js');
+//	wp_enqueue_script( 'owl-carousel-min' );
+	wp_register_script( 'owl-carousel', get_template_directory_uri() . '/js/owl.carousel.js');
+	wp_enqueue_script( 'owl-carousel' );		
 	wp_register_script( 'main-js', get_template_directory_uri() . '/js/main.js' , array( 'jquery' ), false, true);
 	wp_enqueue_script( 'main-js' );
 	wp_register_script( 'analytics-js', get_template_directory_uri() . '/js/google-tracking.js' , false, false, true);
