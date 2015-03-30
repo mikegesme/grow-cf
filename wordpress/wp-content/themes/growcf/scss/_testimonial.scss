@@ -39,7 +39,7 @@
 
 .media-left {
 	@media screen and (min-width: $wide) {
-		width: 40%;
+		max-width: 40%;
 		float: left;
 	}
 //	width: 30%;
