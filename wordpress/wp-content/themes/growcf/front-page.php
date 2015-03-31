@@ -31,6 +31,19 @@
 				</div>
 			</div>
 		</div>
+		<div class="testimonial testimonial-left">
+			<div class="media">
+				<div class="media-left">
+					<figure>
+						<img class="media-object" src="<?php bloginfo('template_url'); ?>/images/ferndale.jpg">
+						<figcaption>John Peterson & Family<br>Ferndale Market</figcaption>
+					</figure>
+				</div>
+				<div class="media-body">
+					<p>"We're proud to be a part of the lively local food and beverage scene in Cannon Falls!  Very few communities could boast having Cannon River Winery, <a target="_blank" href="http://ferndalemarketonline.com/home/partner-month-lorentz-meats/">Lorentz Meats</a>, Thousand Hills Cattle Company, and countless others local food producers.  Plus, the strong tourism appeal of the Cannon Valley Trail and Cannon River draw many visitors to our community.  We couldn't do what we do at Ferndale Market without these assets right here in our community."</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="callout-section">
