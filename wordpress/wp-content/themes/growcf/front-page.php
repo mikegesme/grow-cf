@@ -79,5 +79,8 @@
 		</div>
 	</div>
 </div>
-
+<div class="calendar callout-section">
+		<h2>What's going on this week in Cannon Falls?</h2>
+		<a class="signup-button" target="_blank" href="http://www.advisorsquare.com/new/keithmeyers/calendar/community%20calendar.pdf">Community Calendar</a>
+</div>
 <?php get_footer(); ?>
